@@ -1,5 +1,9 @@
 #!/bin/bash
 
+if [ -z "$CONFIG_DIR" ]; then
+  export CONFIG_DIR="/Users/fernandoperez/.config/sketchybar"
+fi
+
 source "$CONFIG_DIR/colors.sh" # Loads all defined colors
 
 # This is a demo config to showcase some of the most important commands.
@@ -31,7 +35,8 @@ default=(
   padding_right=5
   # padding_bottom=8
   # padding_top=0
-  icon.font="SF Pro:Semibold:15.0"
+  # icon.font="SF Pro:Semibold:15.0"
+  icon.font="Hack Nerd Font:Regular:15.0"
   label.font="SF Pro:Semibold:15.0"
   #icon.color=$WHITE
   #label.color=$WHITE

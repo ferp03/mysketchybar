@@ -423,10 +423,13 @@ function icon_map() {
     icon_result=":nova:"
     ;;
   "net.whatsapp.WhatsApp" | "WhatsApp" | "WhatsApp Desktop")
-    icon_result="􀱮"
+    icon_result=":whats_app:"
     ;;
   "Microsoft Outlook")
-    icon_result="􀈤"
+    icon_result=":mail:"
+    ;;
+  "Postman")
+    icon_result=":airmail:"
     ;;
   *)
     icon_result=":default:"
